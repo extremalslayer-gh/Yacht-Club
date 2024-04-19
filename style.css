@@ -1,0 +1,562 @@
+body{
+    font-family: Roboto;
+    font-size: 14px;
+    color: #163152;
+    font-weight: 400;
+    
+    margin: 0;
+}
+
+ul.reset{
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #163152;
+}
+
+.main-header{
+    width: 1170px;
+    padding: 20px 55px;
+    
+    margin-bottom: 40px;
+     
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1010px;
+    padding-left: 0;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+
+
+
+.main-content{
+    width: 1170px;
+    padding: 0 55px;
+   
+    margin-bottom: 120px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigaton-item{
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.site-navigaton-item:last-child{
+    margin-bottom: 0;
+}
+
+.site-navigaton{
+    display:flex;
+    
+    list-style-type:none;
+    gap: 30px;
+    
+    padding: 0;
+    margin: 0;
+    line-height: 18px;
+    width: 559px;
+    align-self: center;
+}
+.logo-header{
+    width: 64px;
+    justify-self: start;
+    margin-right: 471px;
+}
+.logo{
+    width: 64px;
+}
+
+
+.avatar{
+    align-self: center;
+    margin-left: 40px;
+}
+
+
+main{
+    padding: 0 55px;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 44px;
+    font-style: Italic;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+h2.gallery-title{
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #00C6BD;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+h3{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.hero{
+    margin-bottom: 120px;
+}
+
+.skipper{
+    width: 600px;
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+.article1-wrapper{
+    width: 400px;
+}
+.article1{
+    margin-bottom: 100px;
+}
+
+.arcticle2{
+    margin-bottom: 120px;
+}
+.arcticle2-wrapper{
+    width: 400px;
+    order: 1;
+}
+
+.children-img{
+    order: -1;
+}
+.line{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #00C6BD;
+}
+
+.line1{
+    width: 268px;
+}
+
+.line2{
+    width: 217px;
+}
+
+.line3{
+    width: 113px;
+    margin-bottom: -3px;
+    
+}
+
+.line4{
+    width: 97px;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    
+}
+
+.line6{
+    style: none;
+    width: 91px;
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    
+}
+
+.line5{
+    width: 72px;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 0;
+}
+
+.news{
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+h3.news-title{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.news-title{
+    margin-bottom: 55px;
+}
+
+.title-in-news{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+h3.teams{
+    font-size: 20px;
+    margin-top: 26px;
+}
+
+.teams-regattes-list{
+    margin-top: 28px;
+    
+}
+p.news-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom:12px;
+}
+
+p.news-paragraph:last-child{
+    margin-bottom: 0;
+}
+.description{
+    color: #8693A4;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+}
+.winner-skipper{
+    width: 770px;
+    margin-top: 0px;
+}
+
+.winner-skipper-img{
+    
+    margin: 0 auto;
+    margin-bottom: 23px;
+    
+}
+
+.teams-regattes-list-item{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.words-of-winner{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-right: 40px;
+
+}
+p.date{
+    font-size: 12;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+p.text{
+    padding-bottom: 6px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+p.text-contacts{
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.date{
+    font-size: 12;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+
+
+.social-list-item{
+    width: 9px;
+    height: 16px;
+    top: 1847px;
+    left: 840px;
+    margin-bottom: 5px;
+
+}
+
+
+li.contacts-list-item{
+    margin-bottom: 23px;
+}
+
+.contacts-head{
+    line-height: 24px;
+}
+
+div.datas1{
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 16px;
+    line-height: 22px;
+    line-height: 15px;
+}
+
+.contacts-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+}
+
+.title-contacts-list{
+    order: 1;
+}
+.contacts-list{
+    display: flex;
+    
+    flex-direction: column;
+    margin-left: 0 auto;
+    order: 1;
+}
+.map{
+    align-self: start;
+    order: -1;
+    margin-right: 100px;
+    width: 670px;
+}
+
+.page-footer{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.footer-container{
+    
+    display: flex;
+    width: 1170px;
+    
+    padding: 0 55px;
+    
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 175px;
+    margin-right: 125px;
+    justify-content: space-between;
+}
+
+a.copyright{
+    font-size: 10px;
+    display: flex;
+}
+
+.footer-navigation-topics{
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.footer-navigation-title{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.footer-list-item-list{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+  
+}
+
+.footer-list-item-list{
+    gap: 10px;
+}
+
+
+
+.logo-footer > img{
+    width: 100px;
+    
+}
+
+.logo-footer{
+    margin: 0;
+}
+
+.gallery{
+    width:1170px;
+    margin-bottom: 120px;
+}
+
+.gallery-title{
+    text-align: center;
+}
+
+.main-photo{
+    width: 1170px;
+}
+.main-photo-footer{
+    width: 970px;
+    align-self: start;
+    justify-self: start;
+}
+
+.gallery-container{
+    display: flex;
+    gap: 30px;
+    align-self: start;
+    justify-content: start;
+    
+}
+.gallery-list{
+    width: 170px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gallery-list-item{
+    align-self: start;
+}
+
+.div-copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.yacht-rent{
+    margin-bottom: 120px;
+}
+
+
+.yacht-rent > h2{
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #00C6BD;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+    margin-bottom: 55px;
+
+}
+
+.subtitle-yacht-rent{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+.yacht-list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.yacht-features-list{
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+}
+
+ul.yacht-features-list li{
+    list-style-image: url("img/bold-disc.svg");
+    margin-left: 18px;
+}
+
+
+.yacht-features-list-item > p{
+    margin-bottom: 8px;
+    margin-top: 0;
+    margin-left: 10px;
+    
+}
+.yacht-list-item{
+    width: 310px;
+    padding: 30px;
+    box-shadow: 0px 4px 30px 0px #1631521F;
+
+}
+
+.yacht-list-item > img{
+    width: 310px;
+    margin-bottom: 20px;
+}
+
+
+.yacht-description{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.price-block{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.price-block > p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: right;
+    margin-bottom: auto;
+}
